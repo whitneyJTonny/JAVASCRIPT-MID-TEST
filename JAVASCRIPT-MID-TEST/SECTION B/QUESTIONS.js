@@ -17,14 +17,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ButtonClickEvent</title>
+    <title>Button Click Event Example</title>
 </head>
 <body>
-    <button id="Button">Click Me!</button>
+
+    <button id="myButton">Click Me!</button>
 
     <script>
-        const button = document.getElementById('Button');
+        // Get button element by the ID
+        const button = document.getElementById('myButton');
+        
+        // Add an event listener to handle the 'click' event
         button.addEventListener('click', function() {
+            // it displays an alert when clicked on
             alert('Button was clicked!');
         });
     </script>
