@@ -11,6 +11,27 @@
 //  === are used to convert strict entities
 
 // No.4
+// In JavaScript, an event is an occurrence that happens in the browser, where a user is interacting with a page element
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ButtonClickEvent</title>
+</head>
+<body>
+    <button id="Button">Click Me!</button>
+
+    <script>
+        const button = document.getElementById('Button');
+        button.addEventListener('click', function() {
+            alert('Button was clicked!');
+        });
+    </script>
+
+</body>
+</html>
+
 
 // No.5
 // Map is used to transform arrays and to also create a new array while
